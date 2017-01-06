@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.wearable.view.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uk.org.textentry.wearkeyboardapp.MainWatchActivity"
+    tools:deviceIds="wear"
+    android:keepScreenOn="true"
+    >
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarSize="1px"
+        android:scrollbarThumbVertical="@android:color/white"
+        android:fillViewport="true"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginTop="17dp"
+        >
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textSize="16dp"
+            android:layout_weight="1.0"
+            android:textColor="@color/black"
+            android:gravity="bottom"
+            app:layout_box="all"
+            />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="185dp"
+        android:layout_marginLeft="70dp"
+        android:padding="0dp"
+        android:textColor="@color/white"
+        android:text="▶"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textSize="25dp"/>
+
+
+    <uk.org.textentry.wearwatch_shared.KeyboardView
+        android:id="@+id/keyboardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</android.support.wearable.view.BoxInsetLayout>

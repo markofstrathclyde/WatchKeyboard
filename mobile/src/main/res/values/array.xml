@@ -1,0 +1,25 @@
+<resources>
+    <string-array name="listArray">
+        <item>Phone 1</item>
+        <item>Phone 2</item>
+        <item>Phone 3</item>
+        <item>Phone 4</item>
+        <item>Phone 5</item>
+        <item>Phone 6</item>
+        <item>Phone 7</item>
+        <item>Phone 8</item>
+        <item>Phone 9</item>
+    </string-array>
+
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+</resources>

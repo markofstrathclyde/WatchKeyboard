@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WearKeyboardApp</string>
+    <string name="notSet">-</string>
+    <string name="phoneIdPreferenceKey">phoneIdPreference</string>
+</resources>
